@@ -25,6 +25,6 @@ cd to your working directory
 $ chmod 755 chromedriver to allow your program to manipulate it
 
 2)In calalog Logintest, we have chromedrivrer.exe file for Windows and
-chromedriver fo Linux.  
+chromedriver for Linux.  
 This file was for chrome version 83.
 If you have any problem download appropriate version of chrome driver from https://chromedriver.chromium.org/downloads
