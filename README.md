@@ -12,7 +12,14 @@ OK
 Test completed
 
 additional comments:
+<<<<<<< HEAD
 In calalog Logintest, we have chromedrivrer.exe file for Windows and
 chromedriver.  
 This file was for chrome version 83.
 If you have any problem download appropriate version of chrome driver from https://chromedriver.chromium.org/downloads
+=======
+Test were running on Windows environment. 
+In calalog Logintest, we have chromedrivrer.exe file.
+This file was for chrome version 83.
+If you have any problem, download appropriate version of chrome driver from https://chromedriver.chromium.org/downloads
+>>>>>>> 90c0421c456fee594cb421780c5912b275fa895e
