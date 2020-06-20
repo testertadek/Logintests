@@ -7,7 +7,10 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 class BaseTest(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome('../chromedriver.exe')
+        if sys.platform.startswith('linux'):
+            self.driver = webdriver.Chrome('../chromedriver')
+        elif sys.platform.startswith('win32'):
+            self.driver = webdriver.Chrome('../chromedriver.exe')
         driver = self.driver
         driver.get('http://demowebshop.tricentis.com/')
         driver.maximize_window()
